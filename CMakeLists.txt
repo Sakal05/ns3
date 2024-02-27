@@ -18,9 +18,9 @@ set(GNU_MinVersion 9.0.0)
 # common options
 option(NS3_ASSERT "Enable assert on failure" OFF)
 option(NS3_DES_METRICS "Enable DES Metrics event collection" OFF)
-option(NS3_EXAMPLES "Enable examples to be built" OFF)
+option(NS3_EXAMPLES "Enable examples to be built" ON)
 option(NS3_LOG "Enable logging to be built" OFF)
-option(NS3_TESTS "Enable tests to be built" OFF)
+option(NS3_TESTS "Enable tests to be built" ON)
 
 # fd-net-device options
 option(NS3_EMU "Build with emulation support" ON)

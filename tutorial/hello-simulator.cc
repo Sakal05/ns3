@@ -13,18 +13,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-// This file contains the implementation of the functions declared in the
-// corresponding header file.
+#include "ns3/core-module.h"
 
-#include "scratch-nested-subdir-library-header.h"
+using namespace ns3;
 
-namespace ns3
+NS_LOG_COMPONENT_DEFINE("HelloSimulator");
+
+int
+main(int argc, char* argv[])
 {
-
-std::string
-ScratchNestedSubdirGetMessage()
-{
-    return "Scratch Nested Subdir";
+    NS_LOG_UNCOND("Hello Simulator");
+    return 0;
 }
-
-} // namespace ns3
